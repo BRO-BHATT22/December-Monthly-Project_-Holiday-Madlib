@@ -50,7 +50,8 @@ Adrenaline pumping, I glance at Merrick, "Guess we stirred up the hornet's nest.
 
 Basil Falconhurst: Wow that was something wasn’t it. Well I’m happy you two made it out and thanks for clarifying the story for me. 
 
-You: Yea no problem, and Merry Christmas by the way.`
+You: Yea no problem, and Merry Christmas by the way
+.`
 
 let madLibOutputDiv = document.getElementById('madLibOutput')
 
