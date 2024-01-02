@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Handwriting Std', sans-serif;
+    background-image: url("back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -26,4 +29,26 @@ footer {
 #madLibOutput {
     padding: 20px;
     text-align: center;
+}
+
+
+.hvr {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: background;
+    box-shadow: inset 0 0 0 4px, #888686 0 0 1px rgba(51, 47, 47, 0);
+}
+
+.hvr:hover {
+    padding: 1em;
+    cursor: pointer;
+    background: #534f4f;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    border-color: #000;
+    border-width: 4px;
 }

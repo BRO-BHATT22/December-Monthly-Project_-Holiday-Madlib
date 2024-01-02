@@ -1,3 +1,4 @@
+let name = prompt('Gimme your name please:')
 let adjective = prompt('Gimme an adjective pretty please:')
 let noun = prompt('Gimme an noun pretty please:')
 let verb = prompt('Gimme an verb pretty please:')
